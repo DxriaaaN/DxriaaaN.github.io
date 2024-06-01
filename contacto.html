@@ -13,7 +13,7 @@
 
     <!-- Barra de Navegacion -->
     <nav class="nav-bar">
-        <a href="./index.html"><img src="images/icons/Logotipov3-removebg-preview.png" class="img_logotipo"></a>
+        <a href="./index.html"><img src="images/icons/Logotipov3-removebg-preview.png" class="img_logotipo" alt="Logotipo aleta Bungalows BRC"></a>
         <a href="./index.html">Inicio</a>
         <a href="./servicios.html">Servicio</a>
         <a href="./about.html">Nosotros</a>
@@ -68,13 +68,16 @@
                     <label for="salida">Fecha de Salida:</label>
                     <input type="date" id="salida" name="salida" required>
 
-                    <label for="habitacion">Tipo de Habitación:</label>
-                    <select id="habitacion" name="habitacion" required>
-                        <option value="simple">Habitación Simple</option>
-                        <option value="matrimonial">Habitación Matrimonial</option>
-                        <option value="cuatro-personas">Habitación hasta 4 personas</option>
-                    </select>
-
+                    <label for="habitacion">Tipo de Habitación:</label><br>
+                    <input type="radio" class="radio" name="opcion">Habitación Simple<br>
+                    <input type="radio" class="radio" name="opcion">Habitación Matrimonial<br>
+                    <input type="radio" class="radio" name="opcion">Habitación hasta 4 personas<br>
+                    <!-- <select id="habitacion" name="habitacion" required>
+                        <option value="">Habitación Simple</option>
+                        <option value="">Habitación Matrimonial</option>
+                        <option value="">Habitación hasta 4 personas</option>
+                    </select> -->
+                    <br>
                     <label for="fileUpload">Foto DNI:</label>
                     <input type="file" id="fileUpload" name="fileUpload" required>
 
@@ -83,6 +86,9 @@
 
                     <label for="terminos" class="checkbox-label">
                         <input type="checkbox" class="checkbox" id="terminos" required> Acepto Términos y Condiciones
+                    </label>
+                    <label for="terminos" class="checkbox-label">
+                        <input type="checkbox" class="checkbox" id="terminos" required> Acepto Recibir más Información
                     </label>
 
                     <button type="submit" class="formulario-btn">Enviar</button>
