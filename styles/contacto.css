@@ -127,7 +127,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #787676;
-
+    
 }
 
 .formulario button {
@@ -315,6 +315,12 @@ label {
     color: #000000;
     display: block;
     margin-bottom: 5px;
+}
+
+.radio{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
 }
 
 .checkbox {

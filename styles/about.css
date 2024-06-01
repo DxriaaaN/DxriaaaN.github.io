@@ -177,11 +177,14 @@ body {
     cursor: pointer;
     font-size: 13px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    text-size-adjust: 2rem;
 }
 
 .contactanos-btn:hover {
     background-color: #575656;
     transform: scale(1.1);
+    text-decoration: none;
 }
 
 .footer {
