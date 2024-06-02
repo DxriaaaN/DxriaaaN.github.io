@@ -21,7 +21,6 @@ body {
  @media (max-width: 390px) {
     .nav-bar  {
      flex-direction: column;
-     align-content: center;
      margin-top: 5px;
     }
 }
